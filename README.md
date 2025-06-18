@@ -1,6 +1,6 @@
 ```js
 export default class MyProfile {
-  constructor() { }
+  constructor() {}
 
   /**
    * @returns {string} Full Name
@@ -10,21 +10,16 @@ export default class MyProfile {
   }
 
   /**
-   * @returns {Array<string>}
+   * @returns {Array<string>} Current technical skill set
    */
   get skillset() {
     return [
-      "C#", "C++","PHP",
-      "SQL"
+      "Python", "JavaScript", "NodeJS",
+      "Django", "SQL", "MySQL", "PostgreSQL",
+      "Docker", "AWS", "Git"
     ];
   }
 }
 ```
-<p align="center">
-  <img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg' height='42px'/>
-  <img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg' height='42px'>
-  <img src='https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' height='42px'>
-  <img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' height='42px'>
-  <img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' height='42px'>
-  <img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg' height='42px'>
-</p>
+
+<p align="center"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="42px"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png" height="42px"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" height="42px"/> </p>
